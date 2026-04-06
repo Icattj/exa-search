@@ -1,3 +1,7 @@
+# ---
+
+> OpenClaw AI Agent Skill
+
 ---
 name: exa-search
 description: Semantic web search via Exa API (exa.ai). Returns high-quality, AI-optimized search results with optional full-page content. Use when you need semantic search (meaning-based, not keyword), finding similar pages to a URL, or research-grade web search. Requires EXA_API_KEY. Free tier available at exa.ai.
@@ -79,3 +83,13 @@ curl -s "https://s.jina.ai/your+query"
 ```
 
 Or use the Tavily search wrapper at `~/bin/search`.
+
+## Installation
+
+```bash
+cp -r exa-search/ ~/.openclaw/workspace/skills/exa-search/
+```
+
+## License
+
+MIT © [Sentra Technology](https://github.com/Icattj)
